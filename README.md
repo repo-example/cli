@@ -38,18 +38,29 @@
 
     > install [`hmm`](https://github.com/minejs-org/hmm) first.
 
-    ```bash
-    # in your terminal
-    hmm i {{tag}} --global
-    ```
+    - ##### Create
 
-    ```bash
-    # usage
-    > {{name}} create MyApp -t web # for dev use `hmm start create ..`
+        ```bash
+        > hmm init <name> -t cli    # This will clone this repo and make some changes to suit your app.
+        > cd <name>                 # Go to the project directory
+        > hmm install               # Install the dependencies
+        ```
 
-    # output
-    Creating MyApp as web
-    ```
+    - ##### Manage
+
+        ```bash
+        > hmm build         # To build your app
+        > hmm test          # To test  your app
+        > hmm start <args>  # To start your app
+        ```
+
+        ```bash
+        # usage
+            > hmm start create MyApp -t web
+
+        # output
+            Creating MyApp as web
+        ```
 
     <div align="center"> <img src="./assets/img/line.png" alt="line" style="display: block; margin-top:20px;margin-bottom:20px;width:500px;"/> </div>
     <br>
