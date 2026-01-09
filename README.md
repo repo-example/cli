@@ -70,7 +70,7 @@
     <br>
     <br>
 
-- ## Documents 📑
+- ## Documentation 📑
 
 
     - ### API ⛓️
