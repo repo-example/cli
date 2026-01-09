@@ -1,0 +1,3 @@
+#!/usr/bin/env bun
+import {cli}from'@minejs/cli';function t(){cli("{{tag}}","{{version}}").description("{{desc}}").command({name:"create",args:[{name:"name",required:true}],options:[{name:"type",flag:"-t",type:"string",required:true},{name:"force",flag:"-f",type:"boolean",default:false}],action:({args:e,options:a})=>{console.log(`Creating ${e.name} as ${a.type}`);}}).build().run();}t();//# sourceMappingURL=index.js.map
+//# sourceMappingURL=index.js.map

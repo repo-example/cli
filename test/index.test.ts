@@ -1,4 +1,4 @@
-// test/main.test.ts
+// test/index.test.ts
 //
 // Made with ❤️ by Maysara.
 
