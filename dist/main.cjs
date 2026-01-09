@@ -1,0 +1,3 @@
+#!/usr/bin/env bun
+'use strict';var cli=require('@je-es/cli');function t(){cli.cli("{{tag}}","{{version}}").description("{{desc}}").command({name:"create",args:[{name:"name",required:true}],options:[{name:"type",flag:"-t",type:"string",required:true},{name:"force",flag:"-f",type:"boolean",default:false}],action:({args:e,options:a})=>{console.log(`Creating ${e.name} as ${a.type}`);}}).build().run();}t();//# sourceMappingURL=main.cjs.map
+//# sourceMappingURL=main.cjs.map
